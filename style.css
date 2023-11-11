@@ -1,0 +1,67 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.boxcronometro {
+    background: #fff;
+    border-radius: 8px;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    max-width: 410px;
+    width: 405px;
+}
+
+.timer {
+    font-size: 75px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.botoes-align button {
+    padding: 10px 15px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#start {
+    color: #fff;
+    background-color: #0f79f3;
+    border: 2px solid #0f79f3;
+    border-radius: 35px;
+}
+
+#stop {
+    color: #fff;
+    background-color: #e73701;
+    border: 2px solid #e73701;
+    border-radius: 35px;
+}
+
+#reset {
+    color: #fff;
+    background-color: #1b067a;
+    border: 2px solid #1b067a;
+    border-radius: 35px;
+}
